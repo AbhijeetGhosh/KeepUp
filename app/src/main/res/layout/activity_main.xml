@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/paper2"
+    android:scaleType = "centerCrop">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:background="#F4A460"
+        android:text="Keep up with the world in a single tap!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:text=" tap that circle"
+        android:textColor="#303F9F"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#800000"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="monospace"
+        android:text="About"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="This app is designed and conjured to make keeping up with human's world a wee bit easy, By Merlin. Who's the ancient sorcerer of Niburu, holder of the golden grail and desperate for friends." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="There is no point in trying to contact him since the Postman was banished from Atlantis like 3 centuries ago, and also Merlin is watching you anyway so suck it." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Give your feedback about the app. \n Call upon him via chanting the incantations of the holy mantra 'Uptown Funk'." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Like Once the wise Merlin said 'Politicians and diapers must be changed often, and for the same reason'." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text=" And no one knows why, but Merlin talks in third person. He's weird :)" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
